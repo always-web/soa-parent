@@ -1,27 +1,27 @@
-∑˛ŒÒ∑¢≤º-‘≠¿Ì
-µ⁄“ª∏ˆ∑¢≤ºµƒ∂Ø◊˜£∫±©¬∂±æµÿ∑˛ŒÒ
+ÊúçÂä°ÂèëÂ∏É-ÂéüÁêÜ
+Á¨¨‰∏Ä‰∏™ÂèëÂ∏ÉÁöÑÂä®‰ΩúÔºöÊö¥Èú≤Êú¨Âú∞ÊúçÂä°
 	Export dubbo service com.alibaba.dubbo.demo.DemoService to local registry, dubbo version: 2.0.0, current host: 127.0.0.1
-µ⁄∂˛∏ˆ∑¢≤º∂Ø◊˜£∫±©¬∂‘∂≥Ã∑˛ŒÒ
+Á¨¨‰∫å‰∏™ÂèëÂ∏ÉÂä®‰ΩúÔºöÊö¥Èú≤ËøúÁ®ãÊúçÂä°
 	Export dubbo service com.alibaba.dubbo.demo.DemoService to url dubbo://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&owner=william&pid=8484&side=provider&timestamp=1473908495465, dubbo version: 2.0.0, current host: 127.0.0.1
 	Register dubbo service com.alibaba.dubbo.demo.DemoService url dubbo://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&monitor=dubbo%3A%2F%2F192.168.48.117%3A2181%2Fcom.alibaba.dubbo.registry.RegistryService%3Fapplication%3Ddemo-provider%26backup%3D192.168.48.120%3A2181%2C192.168.48.123%3A2181%26dubbo%3D2.0.0%26owner%3Dwilliam%26pid%3D8484%26protocol%3Dregistry%26refer%3Ddubbo%253D2.0.0%2526interface%253Dcom.alibaba.dubbo.monitor.MonitorService%2526pid%253D8484%2526timestamp%253D1473908495729%26registry%3Dzookeeper%26timestamp%3D1473908495398&owner=william&pid=8484&side=provider&timestamp=1473908495465 to registry registry://192.168.48.117:2181/com.alibaba.dubbo.registry.RegistryService?application=demo-provider&backup=192.168.48.120:2181,192.168.48.123:2181&dubbo=2.0.0&owner=william&pid=8484&registry=zookeeper&timestamp=1473908495398, dubbo version: 2.0.0, current host: 127.0.0.1
-µ⁄»˝∏ˆ∑¢≤º∂Ø◊˜£∫∆Ù∂Ønetty
+Á¨¨‰∏â‰∏™ÂèëÂ∏ÉÂä®‰ΩúÔºöÂêØÂä®netty
 	Start NettyServer bind /0.0.0.0:20880, export /192.168.100.38:20880, dubbo version: 2.0.0, current host: 127.0.0.1
-µ⁄Àƒ∏ˆ∑¢≤º∂Ø◊˜£∫¥Úø™¡¨Ω”zk
+Á¨¨Âõõ‰∏™ÂèëÂ∏ÉÂä®‰ΩúÔºöÊâìÂºÄËøûÊé•zk
 	INFO zookeeper.ClientCnxn: Opening socket connection to server /192.168.48.117:2181
-µ⁄ŒÂ∏ˆ∑¢≤º∂Ø◊˜£∫µΩzk◊¢≤·
+Á¨¨‰∫î‰∏™ÂèëÂ∏ÉÂä®‰ΩúÔºöÂà∞zkÊ≥®ÂÜå
 	Register: dubbo://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&owner=william&pid=8484&side=provider&timestamp=1473908495465, dubbo version: 2.0.0, current host: 127.0.0.1
-µ⁄¡˘∏ˆ∑¢≤º∂Ø◊˜£ªº‡Ã˝zk
+Á¨¨ÂÖ≠‰∏™ÂèëÂ∏ÉÂä®‰ΩúÔºõÁõëÂê¨zk
 	Subscribe: provider://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&category=configurators&check=false&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&owner=william&pid=8484&side=provider&timestamp=1473908495465, dubbo version: 2.0.0, current host: 127.0.0.1
 	Notify urls for subscribe url provider://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&category=configurators&check=false&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&owner=william&pid=8484&side=provider&timestamp=1473908495465, urls: [empty://192.168.100.38:20880/com.alibaba.dubbo.demo.DemoService?anyhost=true&application=demo-provider&category=configurators&check=false&dubbo=2.0.0&generic=false&interface=com.alibaba.dubbo.demo.DemoService&loadbalance=roundrobin&methods=sayHello&owner=william&pid=8484&side=provider&timestamp=1473908495465], dubbo version: 2.0.0, current host: 127.0.0.1
 
-±©¬∂±æµÿ∑˛ŒÒ∫Õ±©¬∂‘∂≥Ã∑˛ŒÒµƒ«¯± « ≤√¥£ø
-1.±©¬∂±æµÿ∑˛ŒÒ£∫÷∏±©¬∂‘⁄”√“ª∏ˆJVM¿Ô√Ê£¨≤ª”√Õ®π˝µ˜”√zk¿¥Ω¯––‘∂≥ÃÕ®–≈°£¿˝»Á£∫‘⁄Õ¨“ª∏ˆ∑˛ŒÒ£¨◊‘º∫µ˜”√◊‘º∫µƒΩ”ø⁄£¨æÕ√ª±ÿ“™Ω¯––Õ¯¬ÁIP¡¨Ω”¿¥Õ®–≈°£
-2.±©¬∂‘∂≥Ã∑˛ŒÒ£∫÷∏±©¬∂∏¯‘∂≥ÃøÕªß∂ÀµƒIP∫Õ∂Àø⁄∫≈£¨Õ®π˝Õ¯¬Á¿¥ µœ÷Õ®–≈°£
+Êö¥Èú≤Êú¨Âú∞ÊúçÂä°ÂíåÊö¥Èú≤ËøúÁ®ãÊúçÂä°ÁöÑÂå∫Âà´ÊòØ‰ªÄ‰πàÔºü
+1.Êö¥Èú≤Êú¨Âú∞ÊúçÂä°ÔºöÊåáÊö¥Èú≤Âú®Áî®‰∏Ä‰∏™JVMÈáåÈù¢Ôºå‰∏çÁî®ÈÄöËøáË∞ÉÁî®zkÊù•ËøõË°åËøúÁ®ãÈÄö‰ø°„ÄÇ‰æãÂ¶ÇÔºöÂú®Âêå‰∏Ä‰∏™ÊúçÂä°ÔºåËá™Â∑±Ë∞ÉÁî®Ëá™Â∑±ÁöÑÊé•Âè£ÔºåÂ∞±Ê≤°ÂøÖË¶ÅËøõË°åÁΩëÁªúIPËøûÊé•Êù•ÈÄö‰ø°„ÄÇ
+2.Êö¥Èú≤ËøúÁ®ãÊúçÂä°ÔºöÊåáÊö¥Èú≤ÁªôËøúÁ®ãÂÆ¢Êà∑Á´ØÁöÑIPÂíåÁ´ØÂè£Âè∑ÔºåÈÄöËøáÁΩëÁªúÊù•ÂÆûÁé∞ÈÄö‰ø°„ÄÇ
 
 
-zk≥÷æ√ªØΩ⁄µ„ ∫Õ¡Ÿ ±Ω⁄µ„”– ≤√¥«¯±£ø
-≥÷æ√ªØΩ⁄µ„£∫“ªµ©±ª¥¥Ω®£¨¥•∑¢÷˜∂Ø…æ≥˝µÙ£¨∑Ò‘ÚæÕ“ª÷±¥Ê¥¢‘⁄ZK¿Ô√Ê°£
-¡Ÿ ±Ω⁄µ„£∫”ÎøÕªß∂Àª·ª∞∞Û∂®£¨“ªµ©øÕªß∂Àª·ª∞ ß–ß£¨’‚∏ˆøÕªß∂À∂ÀÀ˘¥¥Ω®µƒÀ˘”–¡Ÿ ±Ω⁄µ„∂ºª·±ª…æ≥˝°£
+zkÊåÅ‰πÖÂåñËäÇÁÇπ Âíå‰∏¥Êó∂ËäÇÁÇπÊúâ‰ªÄ‰πàÂå∫Âà´Ôºü
+ÊåÅ‰πÖÂåñËäÇÁÇπÔºö‰∏ÄÊó¶Ë¢´ÂàõÂª∫ÔºåËß¶Âèë‰∏ªÂä®Âà†Èô§ÊéâÔºåÂê¶ÂàôÂ∞±‰∏ÄÁõ¥Â≠òÂÇ®Âú®ZKÈáåÈù¢„ÄÇ
+‰∏¥Êó∂ËäÇÁÇπÔºö‰∏éÂÆ¢Êà∑Á´Ø‰ºöËØùÁªëÂÆöÔºå‰∏ÄÊó¶ÂÆ¢Êà∑Á´Ø‰ºöËØùÂ§±ÊïàÔºåËøô‰∏™ÂÆ¢Êà∑Á´ØÁ´ØÊâÄÂàõÂª∫ÁöÑÊâÄÊúâ‰∏¥Êó∂ËäÇÁÇπÈÉΩ‰ºöË¢´Âà†Èô§„ÄÇ
 
 
 
@@ -29,15 +29,15 @@ ServiceBean.onApplicationEvent
 -->export()
   -->ServiceConfig.export()
     -->doExport()
-      -->doExportUrls()//¿Ô√Ê”–“ª∏ˆfor—≠ª∑£¨¥˙±Ì¡À“ª∏ˆ∑˛ŒÒø…“‘”–∂‡∏ˆÕ®–≈–≠“È£¨¿˝»Á tcp–≠“È http–≠“È£¨ƒ¨»œ «tcp–≠“È
-        -->loadRegistries(true)//¥”dubbo.properties¿Ô√Ê◊È◊∞registryµƒurl–≈œ¢
-        -->doExportUrlsFor1Protocol(ProtocolConfig protocolConfig, List<URL> registryURLs) 
-          //≈‰÷√≤ª «remoteµƒ«Èøˆœ¬◊ˆ±æµÿ±©¬∂ (≈‰÷√Œ™remote£¨‘Ú±Ì æ÷ª±©¬∂‘∂≥Ã∑˛ŒÒ)
+      -->doExportUrls()//ÈáåÈù¢Êúâ‰∏Ä‰∏™forÂæ™ÁéØÔºå‰ª£Ë°®‰∫Ü‰∏Ä‰∏™ÊúçÂä°ÂèØ‰ª•ÊúâÂ§ö‰∏™ÈÄö‰ø°ÂçèËÆÆÔºå‰æãÂ¶Ç tcpÂçèËÆÆ httpÂçèËÆÆÔºåÈªòËÆ§ÊòØtcpÂçèËÆÆ
+        -->loadRegistries(true)//‰ªédubbo.propertiesÈáåÈù¢ÁªÑË£ÖregistryÁöÑurl‰ø°ÊÅØ
+        -->doExportUrlsFor1Protocol(ProtocolConfig protocolConfig, List<URL> registryURLs)
+          //ÈÖçÁΩÆ‰∏çÊòØremoteÁöÑÊÉÖÂÜµ‰∏ãÂÅöÊú¨Âú∞Êö¥Èú≤ (ÈÖçÁΩÆ‰∏∫remoteÔºåÂàôË°®Á§∫Âè™Êö¥Èú≤ËøúÁ®ãÊúçÂä°)
           -->exportLocal(URL url)
             -->proxyFactory.getInvoker(ref, (Class) interfaceClass, local)
               -->ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.ProxyFactory.class).getExtension("javassist");
               -->extension.getInvoker(arg0, arg1, arg2)
-                -->StubProxyFactoryWrapper.getInvoker(T proxy, Class<T> type, URL url) 
+                -->StubProxyFactoryWrapper.getInvoker(T proxy, Class<T> type, URL url)
                   -->proxyFactory.getInvoker(proxy, type, url)
                     -->JavassistProxyFactory.getInvoker(T proxy, Class<T> type, URL url)
                       -->Wrapper.getWrapper(com.alibaba.dubbo.demo.provider.DemoServiceImpl)
@@ -48,13 +48,13 @@ ServiceBean.onApplicationEvent
                 -->ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension("injvm");
                 -->extension.export(arg0)
                   -->ProtocolFilterWrapper.export
-                    -->buildInvokerChain //¥¥Ω®8∏ˆfilter
+                    -->buildInvokerChain //ÂàõÂª∫8‰∏™filter
                     -->ProtocolListenerWrapper.export
                       -->InjvmProtocol.export
                         -->return new InjvmExporter<T>(invoker, invoker.getUrl().getServiceKey(), exporterMap)
-                        -->ƒøµƒ£∫exporterMap.put(key, this)//key=com.alibaba.dubbo.demo.DemoService, this=InjvmExporter
-          //»Áπ˚≈‰÷√≤ª «local‘Ú±©¬∂Œ™‘∂≥Ã∑˛ŒÒ.(≈‰÷√Œ™local£¨‘Ú±Ì æ÷ª±©¬∂±æµÿ∑˛ŒÒ)
-          -->proxyFactory.getInvoker//‘≠¿Ì∫Õ±æµÿ±©¬∂“ª—˘∂º «Œ™¡ÀªÒ»°“ª∏ˆInvoker∂‘œÛ
+                        -->ÁõÆÁöÑÔºöexporterMap.put(key, this)//key=com.alibaba.dubbo.demo.DemoService, this=InjvmExporter
+          //Â¶ÇÊûúÈÖçÁΩÆ‰∏çÊòØlocalÂàôÊö¥Èú≤‰∏∫ËøúÁ®ãÊúçÂä°.(ÈÖçÁΩÆ‰∏∫localÔºåÂàôË°®Á§∫Âè™Êö¥Èú≤Êú¨Âú∞ÊúçÂä°)
+          -->proxyFactory.getInvoker//ÂéüÁêÜÂíåÊú¨Âú∞Êö¥Èú≤‰∏ÄÊ†∑ÈÉΩÊòØ‰∏∫‰∫ÜËé∑Âèñ‰∏Ä‰∏™InvokerÂØπË±°
           -->protocol.export(invoker)
             -->Protocol$Adpative.export
               -->ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension("registry");
@@ -63,20 +63,20 @@ ServiceBean.onApplicationEvent
 	                -->ProtocolListenerWrapper.export
 	                  -->RegistryProtocol.export
 	                    -->doLocalExport(originInvoker)
-	                      -->getCacheKey(originInvoker);//∂¡»° dubbo://192.168.100.51:20880/
+	                      -->getCacheKey(originInvoker);//ËØªÂèñ dubbo://192.168.100.51:20880/
 	                      -->rotocol.export
 	                        -->Protocol$Adpative.export
 	                          -->ExtensionLoader.getExtensionLoader(com.alibaba.dubbo.rpc.Protocol.class).getExtension("dubbo");
 	                          -->extension.export(arg0)
 	                            -->ProtocolFilterWrapper.export
-	                              -->buildInvokerChain//¥¥Ω®8∏ˆfilter
+	                              -->buildInvokerChain//ÂàõÂª∫8‰∏™filter
 	                              -->ProtocolListenerWrapper.export
----------1.netty∑˛ŒÒ±©¬∂µƒø™ º-------    -->DubboProtocol.export
-	                                  -->serviceKey(url)//◊È◊∞key=com.alibaba.dubbo.demo.DemoService:20880
-	                                  -->ƒøµƒ£∫exporterMap.put(key, this)//key=com.alibaba.dubbo.demo.DemoService:20880, this=DubboExporter
+---------1.nettyÊúçÂä°Êö¥Èú≤ÁöÑÂºÄÂßã-------    -->DubboProtocol.export
+	                                  -->serviceKey(url)//ÁªÑË£Ökey=com.alibaba.dubbo.demo.DemoService:20880
+	                                  -->ÁõÆÁöÑÔºöexporterMap.put(key, this)//key=com.alibaba.dubbo.demo.DemoService:20880, this=DubboExporter
 	                                  -->openServer(url)
 	                                    -->createServer(url)
---------2.–≈œ¢Ωªªª≤„ exchanger ø™ º-------------->Exchangers.bind(url, requestHandler)//exchaanger «“ª∏ˆ–≈œ¢Ωªªª≤„
+--------2.‰ø°ÊÅØ‰∫§Êç¢Â±Ç exchanger ÂºÄÂßã-------------->Exchangers.bind(url, requestHandler)//exchaangerÊòØ‰∏Ä‰∏™‰ø°ÊÅØ‰∫§Êç¢Â±Ç
 	                                        -->getExchanger(url)
 	                                          -->getExchanger(type)
 	                                            -->ExtensionLoader.getExtensionLoader(Exchanger.class).getExtension("header")
@@ -85,7 +85,7 @@ ServiceBean.onApplicationEvent
 	                                            -->new HeaderExchangeHandler(handler)//this.handler = handler
 	                                            -->new DecodeHandler
 	                                            	-->new AbstractChannelHandlerDelegate//this.handler = handler;
----------3.Õ¯¬Á¥´ ‰≤„ transporter--------------------->Transporters.bind
+---------3.ÁΩëÁªú‰º†ËæìÂ±Ç transporter--------------------->Transporters.bind
 	                                              -->getTransporter()
 	                                                -->ExtensionLoader.getExtensionLoader(Transporter.class).getAdaptiveExtension()
 	                                              -->Transporter$Adpative.bind
@@ -96,29 +96,29 @@ ServiceBean.onApplicationEvent
 	                                                      -->AbstractPeer //this.url = url;    this.handler = handler;
 	                                                      -->AbstractEndpoint//codec  timeout=1000  connectTimeout=3000
 	                                                      -->AbstractServer //bindAddress accepts=0 idleTimeout=600000
----------4.¥Úø™∂œø™£¨±©¬∂netty∑˛ŒÒ-------------------------------->doOpen()
-	                                                        -->…Ë÷√ NioServerSocketChannelFactory boss workerµƒœﬂ≥Ã≥ÿ œﬂ≥Ã∏ˆ ˝Œ™3
-	                                                        -->…Ë÷√±‡Ω‚¬Î hander
+---------4.ÊâìÂºÄÊñ≠ÂºÄÔºåÊö¥Èú≤nettyÊúçÂä°-------------------------------->doOpen()
+	                                                        -->ËÆæÁΩÆ NioServerSocketChannelFactory boss workerÁöÑÁ∫øÁ®ãÊ±† Á∫øÁ®ã‰∏™Êï∞‰∏∫3
+	                                                        -->ËÆæÁΩÆÁºñËß£Á†Å hander
 	                                                        -->bootstrap.bind(getBindAddress())
 	                                            -->new HeaderExchangeServer
 	                                              -->this.server=NettyServer
 	                                              -->heartbeat=60000
 	                                              -->heartbeatTimeout=180000
-	                                              -->startHeatbeatTimer()//’‚ «“ª∏ˆ–ƒÃ¯∂® ±∆˜£¨≤…”√¡Àœﬂ≥Ã≥ÿ£¨»Áπ˚∂œø™æÕ–ƒÃ¯÷ÿ¡¨°£
+	                                              -->startHeatbeatTimer()//ËøôÊòØ‰∏Ä‰∏™ÂøÉË∑≥ÂÆöÊó∂Âô®ÔºåÈááÁî®‰∫ÜÁ∫øÁ®ãÊ±†ÔºåÂ¶ÇÊûúÊñ≠ÂºÄÂ∞±ÂøÉË∑≥ÈáçËøû„ÄÇ
 
-	                    -->getRegistry(originInvoker)//zk ¡¨Ω”
+	                    -->getRegistry(originInvoker)//zk ËøûÊé•
 	                      -->registryFactory.getRegistry(registryUrl)
 	                        -->ExtensionLoader.getExtensionLoader(RegistryFactory.class).getExtension("zookeeper");
 	                        -->extension.getRegistry(arg0)
-	                          -->AbstractRegistryFactory.getRegistry//¥¥Ω®“ª∏ˆ◊¢≤·÷––ƒ£¨¥Ê¥¢‘⁄REGISTRIES
+	                          -->AbstractRegistryFactory.getRegistry//ÂàõÂª∫‰∏Ä‰∏™Ê≥®ÂÜå‰∏≠ÂøÉÔºåÂ≠òÂÇ®Âú®REGISTRIES
 	                            -->createRegistry(url)
 	                              -->new ZookeeperRegistry(url, zookeeperTransporter)
 	                                -->AbstractRegistry
-	                                  -->loadProperties()//ƒøµƒ£∫∞—C:\Users\bobo\.dubbo\dubbo-registry-192.168.48.117.cache
-	                                                                                                                                                                    Œƒº˛÷–µƒƒ⁄»›º”‘ÿŒ™properties
-	                                  -->notify(url.getBackupUrls())//≤ª◊ˆ»Œ∫Œ ¬             
-	                                -->FailbackRegistry   
-	                                  -->retryExecutor.scheduleWithFixedDelay(new Runnable()//Ω®¡¢œﬂ≥Ã≥ÿ£¨ºÏ≤‚≤¢¡¨Ω”◊¢≤·÷––ƒ,»Áπ˚ ß∞‹¡ÀæÕ÷ÿ¡¨
+	                                  -->loadProperties()//ÁõÆÁöÑÔºöÊääC:\Users\bobo\.dubbo\dubbo-registry-192.168.48.117.cache
+	                                                                                                                                                                    Êñá‰ª∂‰∏≠ÁöÑÂÜÖÂÆπÂä†ËΩΩ‰∏∫properties
+	                                  -->notify(url.getBackupUrls())//‰∏çÂÅö‰ªª‰Ωï‰∫ã
+	                                -->FailbackRegistry
+	                                  -->retryExecutor.scheduleWithFixedDelay(new Runnable()//Âª∫Á´ãÁ∫øÁ®ãÊ±†ÔºåÊ£ÄÊµãÂπ∂ËøûÊé•Ê≥®ÂÜå‰∏≠ÂøÉ,Â¶ÇÊûúÂ§±Ë¥•‰∫ÜÂ∞±ÈáçËøû
 	                                -->ZookeeperRegistry
 	                                  -->zookeeperTransporter.connect(url)
 	                                    -->ZookeeperTransporter$Adpative.connect(url)
@@ -128,15 +128,15 @@ ServiceBean.onApplicationEvent
 	                                          -->new ZkclientZookeeperClient(url)
 	                                            -->AbstractZookeeperClient
 	                                            -->ZkclientZookeeperClient
-	                                              -->new ZkClient(url.getBackupAddress());//¡¨Ω”ZK
-	                                              -->client.subscribeStateChanges(new IZkStateListener()//∂©‘ƒµƒƒø±Í£∫¡¨Ω”∂œø™£¨÷ÿ¡¨
-	                                    -->zkClient.addStateListener(new StateListener() 
-	                                      -->recover //¡¨Ω” ß∞‹ ÷ÿ¡¨
-	                                      
-	                    -->registry.register(registedProviderUrl)//¥¥Ω®Ω⁄µ„
+	                                              -->new ZkClient(url.getBackupAddress());//ËøûÊé•ZK
+	                                              -->client.subscribeStateChanges(new IZkStateListener()//ËÆ¢ÈòÖÁöÑÁõÆÊ†áÔºöËøûÊé•Êñ≠ÂºÄÔºåÈáçËøû
+	                                    -->zkClient.addStateListener(new StateListener()
+	                                      -->recover //ËøûÊé•Â§±Ë¥• ÈáçËøû
+
+	                    -->registry.register(registedProviderUrl)//ÂàõÂª∫ËäÇÁÇπ
 	                      -->AbstractRegistry.register
 	                      -->FailbackRegistry.register
-	                        -->doRegister(url)//œÚzk∑˛ŒÒ∆˜∂À∑¢ÀÕ◊¢≤·«Î«Û
+	                        -->doRegister(url)//ÂêëzkÊúçÂä°Âô®Á´ØÂèëÈÄÅÊ≥®ÂÜåËØ∑Ê±Ç
 	                          -->ZookeeperRegistry.doRegister
 	                            -->zkClient.create
 	                              -->AbstractZookeeperClient.create//dubbo/com.alibaba.dubbo.demo.DemoService/providers/
@@ -144,63 +144,63 @@ ServiceBean.onApplicationEvent
 										                              application%3Ddemo-provider%26dubbo%3D2.0.0%26generic%3Dfalse%26interface%3D
 										                              com.alibaba.dubbo.demo.DemoService%26loadbalance%3Droundrobin%26methods%3DsayHello%26owner%3
 										                              Dwilliam%26pid%3D2416%26side%3Dprovider%26timestamp%3D1474276306353
-	                                -->createEphemeral(path);//¡Ÿ ±Ω⁄µ„  dubbo%3A%2F%2F192.168.100.52%3A20880%2F.............
-	                                -->createPersistent(path);//≥÷æ√ªØΩ⁄µ„ dubbo/com.alibaba.dubbo.demo.DemoService/providers
-	                                    
-	                                    
-	                    -->registry.subscribe//∂©‘ƒZK
+	                                -->createEphemeral(path);//‰∏¥Êó∂ËäÇÁÇπ  dubbo%3A%2F%2F192.168.100.52%3A20880%2F.............
+	                                -->createPersistent(path);//ÊåÅ‰πÖÂåñËäÇÁÇπ dubbo/com.alibaba.dubbo.demo.DemoService/providers
+
+
+	                    -->registry.subscribe//ËÆ¢ÈòÖZK
 	                      -->AbstractRegistry.subscribe
 	                      -->FailbackRegistry.subscribe
-	                        -->doSubscribe(url, listener)// œÚ∑˛ŒÒ∆˜∂À∑¢ÀÕ∂©‘ƒ«Î«Û
+	                        -->doSubscribe(url, listener)// ÂêëÊúçÂä°Âô®Á´ØÂèëÈÄÅËÆ¢ÈòÖËØ∑Ê±Ç
 	                          -->ZookeeperRegistry.doSubscribe
 	                            -->new ChildListener()
-	                              --> µœ÷¡À childChanged
-	                                --> µœ÷≤¢÷¥–– ZookeeperRegistry.this.notify(url, listener, toUrlsWithEmpty(url, parentPath, currentChilds));
+	                              -->ÂÆûÁé∞‰∫Ü childChanged
+	                                -->ÂÆûÁé∞Âπ∂ÊâßË°å ZookeeperRegistry.this.notify(url, listener, toUrlsWithEmpty(url, parentPath, currentChilds));
 	                              //A
-	                            -->zkClient.create(path, false);//µ⁄“ª≤Ω£∫œ»¥¥Ω®≥÷æ√ªØΩ⁄µ„/dubbo/com.alibaba.dubbo.demo.DemoService/configurators
+	                            -->zkClient.create(path, false);//Á¨¨‰∏ÄÊ≠•ÔºöÂÖàÂàõÂª∫ÊåÅ‰πÖÂåñËäÇÁÇπ/dubbo/com.alibaba.dubbo.demo.DemoService/configurators
 	                            -->zkClient.addChildListener(path, zkListener)
 	                              -->AbstractZookeeperClient.addChildListener
 	                                //C
-	                                -->createTargetChildListener(path, listener)//µ⁄»˝≤Ω£∫ ’µΩ∂©‘ƒ∫Ûµƒ¥¶¿Ì£¨Ωª∏¯FailbackRegistry.notify¥¶¿Ì
+	                                -->createTargetChildListener(path, listener)//Á¨¨‰∏âÊ≠•ÔºöÊî∂Âà∞ËÆ¢ÈòÖÂêéÁöÑÂ§ÑÁêÜÔºå‰∫§ÁªôFailbackRegistry.notifyÂ§ÑÁêÜ
 	                                  -->ZkclientZookeeperClient.createTargetChildListener
-	                                    -->new IZkChildListener() 
-	                                      --> µœ÷¡À handleChildChange // ’µΩ∂©‘ƒ∫Ûµƒ¥¶¿Ì
+	                                    -->new IZkChildListener()
+	                                      -->ÂÆûÁé∞‰∫Ü handleChildChange //Êî∂Âà∞ËÆ¢ÈòÖÂêéÁöÑÂ§ÑÁêÜ
 	                                      	-->listener.childChanged(parentPath, currentChilds);
-	                                      	--> µœ÷≤¢÷¥––ZookeeperRegistry.this.notify(url, listener, toUrlsWithEmpty(url, parentPath, currentChilds));
-	                                      	--> ’µΩ∂©‘ƒ∫Û¥¶¿Ì FailbackRegistry.notify
-	                                //B      	
-	                                -->addTargetChildListener(path, targetListener)////µ⁄∂˛≤Ω
+	                                      	-->ÂÆûÁé∞Âπ∂ÊâßË°åZookeeperRegistry.this.notify(url, listener, toUrlsWithEmpty(url, parentPath, currentChilds));
+	                                      	-->Êî∂Âà∞ËÆ¢ÈòÖÂêéÂ§ÑÁêÜ FailbackRegistry.notify
+	                                //B
+	                                -->addTargetChildListener(path, targetListener)////Á¨¨‰∫åÊ≠•
 	                                  -->ZkclientZookeeperClient.addTargetChildListener
-	                                    -->client.subscribeChildChanges(path, listener)//µ⁄∂˛≤Ω£∫∆Ù∂Øº”»Î∂©‘ƒ/dubbo/com.alibaba.dubbo.demo.DemoService/configurators
-	                    
+	                                    -->client.subscribeChildChanges(path, listener)//Á¨¨‰∫åÊ≠•ÔºöÂêØÂä®Âä†ÂÖ•ËÆ¢ÈòÖ/dubbo/com.alibaba.dubbo.demo.DemoService/configurators
+
 	                    -->notify(url, listener, urls)
 	                      -->FailbackRegistry.notify
 	                        -->doNotify(url, listener, urls);
 	                          -->AbstractRegistry.notify
-	                            -->saveProperties(url);//∞—∑˛ŒÒ∂Àµƒ◊¢≤·url–≈œ¢∏¸–¬µΩC:\Users\bobo\.dubbo\dubbo-registry-192.168.48.117.cache
-	                              -->registryCacheExecutor.execute(new SaveProperties(version));//≤…”√œﬂ≥Ã≥ÿ¿¥¥¶¿Ì
+	                            -->saveProperties(url);//ÊääÊúçÂä°Á´ØÁöÑÊ≥®ÂÜåurl‰ø°ÊÅØÊõ¥Êñ∞Âà∞C:\Users\bobo\.dubbo\dubbo-registry-192.168.48.117.cache
+	                              -->registryCacheExecutor.execute(new SaveProperties(version));//ÈááÁî®Á∫øÁ®ãÊ±†Êù•Â§ÑÁêÜ
 	                            -->listener.notify(categoryList)
 	                              -->RegistryProtocol.notify
-	                                -->RegistryProtocol.this.getProviderUrl(originInvoker)//Õ®π˝invokerµƒurl ªÒ»° providerUrlµƒµÿ÷∑
-	                                                                                                        
-	                                                                                                                                                                    
-	                                    
-	                    
+	                                -->RegistryProtocol.this.getProviderUrl(originInvoker)//ÈÄöËøáinvokerÁöÑurl Ëé∑Âèñ providerUrlÁöÑÂú∞ÂùÄ
 
 
-	                                                
-	                                                      
-	                                                
-	                                           
-	                                        
-			                              
-	                            
-	                          
-          
-                        
-                        
-                    
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
